@@ -1,5 +1,5 @@
 <?php 
-$negara = ["Indonesia", "Singapura", "Malaysia", "Brunai", "Thailand"];
+$negara = ["Indonesia", "Singapura", "Malaysia", "Brunai", "Thailand", "Laos", "Filipina", "Myanmar"];
 
 ?>
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ $negara = ["Indonesia", "Singapura", "Malaysia", "Brunai", "Thailand"];
     <p>
         <b> Daftar Negara ASEAN awal :</br></b>
         <?php 
-             for ($i =0; $i < 4;  $i++) {
+             for ($i =0; $i < 5;  $i++) {
             echo "<li>$negara[$i]</li>";
             }
 
@@ -24,7 +24,6 @@ $negara = ["Indonesia", "Singapura", "Malaysia", "Brunai", "Thailand"];
              for ($i =0; $i < count ($negara); $i++) {
             echo "<li>$negara[$i]</li>";
             }
-
          ?>
     </p>
 </body>
